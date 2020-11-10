@@ -1,6 +1,3 @@
 # legacy-gatsby-plugin-prefetch-google-fonts
 
-**DO NOT USE**
-
-Now part of [escalade](https://github.com/escaladesports/escalade-internal/tree/master/packages/gatsby-plugin-prefetch-google-fonts
-) monorepo.
+We are no longer supporting this package. If you would like to use please clone/fork and create your own. We apologize for the inconvenience or troubles we have caused. 
