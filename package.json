@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-plugin-prefetch-google-fonts",
+  "name": "@vinzcelavi/gatsby-plugin-prefetch-google-fonts",
   "version": "1.4.3",
   "repository": {
     "type": "git",
-    "url": "https://github.com/escaladesports/gatsby-plugin-prefetch-google-fonts.git"
+    "url": "git+https://github.com/vinzcelavi/gatsby-plugin-prefetch-google-fonts.git"
   },
   "keywords": [
     "gatsby-plugin",
@@ -21,6 +21,7 @@
     "local"
   ],
   "author": "Kennedy Rose <krose@escaladesports.com>",
+  "contriubutors": "Vincent Bianciotto <vincent@celavi.fr>",
   "license": "MIT",
   "scripts": {
     "build": "npm run build:plugin",
@@ -40,8 +41,7 @@
     "prepublishOnly": "npm run build",
     "reset": "node utils/reset",
     "serve": "gatsby serve --open",
-    "test": "echo 'No test specified'",
-    "travis": "opn https://travis-ci.org/escaladesports/gatsby-plugin-prefetch-google-fonts/branches"
+    "test": "echo 'No test specified'"
   },
   "jest": {
     "testRegex": "/.*(__tests__\\/.*)|(.*(test|spec))\\.jsx?$",
@@ -142,5 +142,10 @@
     "strip-html-comments": "^1.0.0",
     "toml": "^2.3.3",
     "wt-cli": "^10.0.3"
-  }
+  },
+  "description": "A Gatsby plugin to download and prefetch [Google Fonts](https://fonts.google.com/). Can increase performance as opposed to loading webfonts from Google's external stylesheet.",
+  "bugs": {
+    "url": "https://github.com/vinzcelavi/gatsby-plugin-prefetch-google-fonts/issues"
+  },
+  "homepage": "https://github.com/vinzcelavi/gatsby-plugin-prefetch-google-fonts#readme"
 }
